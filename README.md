@@ -2,7 +2,7 @@
 
 ![](jbang_logo.svg)
 
-This is a collection of example apps to create CLI apps with Java using JBang.
+This is a collection of examples to create CLI apps using Java with JBang.
 
 * Project: [https://github.com/jbangdev/jbang](https://github.com/jbangdev/jbang)
 * Organization: [https://github.com/jbangdev](https://github.com/jbangdev)
