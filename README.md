@@ -1,6 +1,6 @@
-# JBang Hello World
+# JBang Examples
 
-This is a small repo on how to create CLI apps with Java using JBang.
+This is a collection of example apps to create CLI apps with Java using JBang.
 
 ## Install OpenJDK
 
