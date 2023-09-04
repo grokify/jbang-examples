@@ -61,3 +61,10 @@ See more: [https://www.jbang.dev/documentation/guide/latest/usage.html](https://
 ## Dependencies
 
 See more: [https://www.jbang.dev/documentation/guide/latest/dependencies.html](https://www.jbang.dev/documentation/guide/latest/dependencies.html)
+
+## Credits
+
+The `helloworld` and `log4j` examples are from the JBang docs:
+
+1. `helloworld`: [Usage](https://www.jbang.dev/documentation/guide/latest/usage.html)
+1. `log4j`: [Dependencies](https://www.jbang.dev/documentation/guide/latest/dependencies.html)
