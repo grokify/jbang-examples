@@ -57,3 +57,7 @@ or
 ```
 
 See more: [https://www.jbang.dev/documentation/guide/latest/usage.html](https://www.jbang.dev/documentation/guide/latest/usage.html)
+
+## Dependencies
+
+See more: [https://www.jbang.dev/documentation/guide/latest/dependencies.html](https://www.jbang.dev/documentation/guide/latest/dependencies.html)
