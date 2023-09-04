@@ -10,14 +10,13 @@ import org.apache.log4j.BasicConfigurator;
 import java.util.Arrays;
 
 class classpath_example {
+    static final Logger logger = Logger.getLogger(classpath_example.class);
 
-	static final Logger logger = Logger.getLogger(classpath_example.class);
+    public static void main(String[] args) {
+        BasicConfigurator.configure(); 
+        logger.info("Welcome to jbang");
 
-	public static void main(String[] args) {
-		BasicConfigurator.configure(); 
-		logger.info("Welcome to jbang");
-
-		Arrays.asList(args).forEach(arg -> logger.warn("arg: " + arg));
-		logger.info("Hello from Java!");
-	}
+        Arrays.asList(args).forEach(arg -> logger.warn("arg: " + arg));
+        logger.info("Hello from Java!");
+    }
 }
