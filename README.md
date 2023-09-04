@@ -1,6 +1,6 @@
 # JBang Hello World
 
-This is a small repo on how to get set up with JBang.
+This is a small repo on how to create CLI apps with Java using JBang.
 
 ## Install OpenJDK
 
