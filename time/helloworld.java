@@ -32,7 +32,8 @@ class helloworld {
 		Duration dur = Duration.between(dt0,dt1);
 		long durms = dur.toMillis();
 		long durmn = TimeUnit.MILLISECONDS.toMinutes(durms)*60;
-        String time = String.format("%02d hours, %02d min, %02d sec",
+        // String time = String.format("%02d hours, %02d min, %02d sec",
+        String time = String.format("%02d:%02d:%02d",
                 TimeUnit.MILLISECONDS.toHours(durms),
                 TimeUnit.MILLISECONDS.toMinutes(durms) - TimeUnit.MILLISECONDS.toHours(durms) * 60,
                 TimeUnit.MILLISECONDS.toSeconds(durms) - durmn);
