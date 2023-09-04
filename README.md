@@ -69,7 +69,8 @@ See more: [https://www.jbang.dev/documentation/guide/latest/dependencies.html](h
 
 ## Credits
 
-The `helloworld` and `log4j` examples are from the JBang docs:
+The logo, `helloworld`, and `log4j` examples are from the JBang docs:
 
+1. logo: [readme.adoc](https://github.com/jbangdev/jbang)
 1. `helloworld`: [Usage](https://www.jbang.dev/documentation/guide/latest/usage.html)
 1. `log4j`: [Dependencies](https://www.jbang.dev/documentation/guide/latest/dependencies.html)
