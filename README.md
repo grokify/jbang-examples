@@ -65,6 +65,8 @@ See more: [https://www.jbang.dev/documentation/guide/latest/usage.html](https://
 
 ## Dependencies
 
+The [`log4j`](log4j) and [`mysql`](mysql) examples showcase the use of dependencies.
+
 See more: [https://www.jbang.dev/documentation/guide/latest/dependencies.html](https://www.jbang.dev/documentation/guide/latest/dependencies.html)
 
 ## Credits
