@@ -2,12 +2,15 @@
 
 import java.lang.Thread;
 import java.time.format.DateTimeFormatter;
+import java.time.Duration;
 import java.time.ZonedDateTime;
+import java.util.concurrent.TimeUnit;
 
 class helloworld { 
     public static void main(String[] args) {
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssZZZZZ");
-        String dtStr0 = fmt.format(ZonedDateTime.now());
+		ZonedDateTime dt0 = ZonedDateTime.now();
+        String dtStr0 = fmt.format(dt0);
         System.out.println(dtStr0);
 
         if (args.length==0) {
@@ -22,7 +25,18 @@ class helloworld {
             System.out.println(e);
         }
 
-        String dtStr1 = fmt.format(ZonedDateTime.now());
+		ZonedDateTime dt1 = ZonedDateTime.now();
+        String dtStr1 = fmt.format(dt1);
         System.out.println(dtStr1);
+
+		Duration dur = Duration.between(dt0,dt1);
+		long durms = dur.toMillis();
+		long durmn = TimeUnit.MILLISECONDS.toMinutes(durms)*60;
+        String time = String.format("%02d hours, %02d min, %02d sec",
+                TimeUnit.MILLISECONDS.toHours(durms),
+                TimeUnit.MILLISECONDS.toMinutes(durms) - TimeUnit.MILLISECONDS.toHours(durms) * 60,
+                TimeUnit.MILLISECONDS.toSeconds(durms) - durmn);
+                       ;
+        System.out.println("time elapsed = " + time);
     }
 }
