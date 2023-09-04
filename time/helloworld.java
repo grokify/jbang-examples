@@ -10,7 +10,7 @@ class helloworld {
         String dtStr0 = fmt.format(ZonedDateTime.now());
         System.out.println(dtStr0);
 
-        if(args.length==0) {
+        if (args.length==0) {
             System.out.println("Hello World!");
         } else {
             System.out.println("Hello " + args[0]);
