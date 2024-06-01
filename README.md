@@ -69,6 +69,10 @@ The [`log4j`](log4j) and [`mysql`](mysql) examples showcase the use of dependenc
 
 See more: [https://www.jbang.dev/documentation/guide/latest/dependencies.html](https://www.jbang.dev/documentation/guide/latest/dependencies.html)
 
+## Unit Tests
+
+https://github.com/jbangdev/jbang/discussions/424
+
 ## Credits
 
 The logo, `helloworld`, and `log4j` examples are from the JBang docs:
